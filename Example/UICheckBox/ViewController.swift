@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     private lazy var checkBox: UICheckBox = {
         let c = UICheckBox(frame: .zero)
+        c.style = .indeterminate
         c.backgroundColor = .white
         return c
     }()

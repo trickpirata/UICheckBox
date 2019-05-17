@@ -18,8 +18,8 @@ open class UICheckBox: UIControl {
     
     public enum Status: Int {
         case inactive
-        case active
         case indeterminate
+        case active
     }
     
     public var imgActive = UIImage(named: "imgCheckbox_active", in: Bundle.Icons, compatibleWith: nil)

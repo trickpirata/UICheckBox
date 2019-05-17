@@ -1,7 +1,7 @@
 {
   "name": "UICheckBox",
   "version": "0.1.0",
-  "summary": "A short description of UICheckBox.",
+  "summary": "Simple UICheckbox with intermediate status",
   "description": "Simple UICheckbox with intermediate status",
   "homepage": "https://github.com/trickpirata/UICheckBox",
   "license": {
