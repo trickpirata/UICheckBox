@@ -1,4 +1,5 @@
 # UICheckBox
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/trickpirata/UICheckBox.svg?style=flat)](https://travis-ci.org/trickpirata/UICheckBox)
 [![Version](https://img.shields.io/cocoapods/v/UICheckBox.svg?style=flat)](https://cocoapods.org/pods/UICheckBox)
@@ -27,3 +28,6 @@ trickpirata, patrick.gorospe@icloud.com
 ## License
 
 UICheckBox is available under the MIT license. See the LICENSE file for more info.
+=======
+Simple UICheckbox with intermediate status created in swift
+>>>>>>> e967aa8f4953a41113b849315071b5cdffe564ff
