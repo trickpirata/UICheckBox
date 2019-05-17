@@ -1,0 +1,6 @@
+framework module UICheckBox {
+  umbrella header "UICheckBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

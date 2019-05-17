@@ -1,0 +1,33 @@
+{
+  "name": "UICheckBox",
+  "version": "0.1.0",
+  "summary": "A short description of UICheckBox.",
+  "description": "Simple UICheckbox with intermediate status",
+  "homepage": "https://github.com/trickpirata/UICheckBox",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "trickpirata": "patrick.gorospe@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/trickpirata/UICheckBox.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/trickgp",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UICheckBox/Classes/**/*",
+  "resource_bundles": {
+    "UICheckBox": [
+      "UICheckBox/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.0.0"
+    ]
+  }
+}
