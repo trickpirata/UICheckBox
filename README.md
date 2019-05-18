@@ -29,5 +29,5 @@ trickpirata, patrick.gorospe@icloud.com
 
 UICheckBox is available under the MIT license. See the LICENSE file for more info.
 =======
-Simple UICheckbox with intermediate status created in swift
+Simple UICheckbox with indeterminate status created in swift
 
