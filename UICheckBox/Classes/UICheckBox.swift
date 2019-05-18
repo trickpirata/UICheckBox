@@ -33,7 +33,11 @@ open class UICheckBox: UIControl {
     /// Callback
     public var valueChanged: ((_ isChecked: Status) -> Void)?
     
-    public var status: Status = .inactive
+    public var status: Status = .inactive {
+        didSet {
+            changeImage(forStatus: status)
+        }
+    }
     
     private let imgCheckbox = UIImageView()
     
@@ -52,7 +56,6 @@ open class UICheckBox: UIControl {
     }
     
     private func setupUI() {
-        print("setting up")
         addSubview(imgCheckbox)
         
         imgCheckbox.snp.makeConstraints { (maker) in
@@ -64,7 +67,7 @@ open class UICheckBox: UIControl {
     
     private func setupDefaults() {
         backgroundColor = UIColor.init(white: 1, alpha: 0)
-
+        
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture(recognizer:)))
         addGestureRecognizer(tapGesture)
     }
@@ -110,7 +113,7 @@ open class UICheckBox: UIControl {
             }
         }
     }
-
+    
 }
 
 extension Bundle {
